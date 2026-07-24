@@ -118,7 +118,7 @@ function App() {
   return (
     <div className="container">
       <div className="card">
-        <h1>🛍️ Tạo Link Shopee</h1>
+        <h1>🛍️ Nhập Link Shopee cần hoàn tiền</h1>
         {!affiliateId && (
           <div className="config-warning">
             ⚠️ Chưa config Affiliate ID. Xem{" "}
@@ -153,7 +153,7 @@ function App() {
             </div>
           </div>
           <button type="submit" className="btn-primary" disabled={loading}>
-            {loading ? "Đang tạo..." : "🔥 Tạo Link Ngay"}
+            {loading ? "Đang tạo..." : "🔥 Gửi Ngay"}
           </button>
         </form>
 
@@ -161,10 +161,10 @@ function App() {
 
         {result && result.success && (
           <div className="result">
-            <h3>✅ Tạo link thành công!</h3>
+            <h3>✅ Tạo link nhận hoàn tiền thành công!</h3>
 
             <div className="link-box">
-              <label>Link húp ngay</label>
+              <label>Link nhấp ngay</label>
               <div className="link-container">
                 <input
                   type="text"
@@ -193,10 +193,9 @@ function App() {
               <h4>📝 Hướng dẫn sử dụng:</h4>
               <ol>
                 <li>
-                  Nhấn <strong>Copy Link</strong> ở trên
+                  Nhấn <strong>Mua ngay</strong> ở trên
                 </li>
-                <li>Dán link dưới bình luận bài đăng Facebook</li>
-                <li>Người dùng click vào link sẽ nhận được mã khuyến mãi</li>
+                <li>Sau khi nhận hàng liên hệ admin nhóm nhận tiền hoàn nhé</li>  
               </ol>
             </div>
           </div>
