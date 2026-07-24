@@ -164,7 +164,7 @@ function App() {
             <h3>✅ Tạo link nhận hoàn tiền thành công!</h3>
 
             <div className="link-box">
-              <label>Link nhấp ngay</label>
+              <label>Link mua</label>
               <div className="link-container">
                 <input
                   type="text"
@@ -193,7 +193,7 @@ function App() {
               <h4>📝 Hướng dẫn sử dụng:</h4>
               <ol>
                 <li>
-                  Nhấn <strong>Mua ngay</strong> ở trên
+                  Nhấn <strong>Mua ngay</strong> ở trên để đặt hàng
                 </li>
                 <li>Sau khi nhận hàng liên hệ admin nhóm nhận tiền hoàn nhé</li>  
               </ol>
