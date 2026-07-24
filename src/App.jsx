@@ -195,7 +195,7 @@ function App() {
                 <li>
                   Nhấn <strong>Mua ngay</strong> ở trên để đặt hàng
                 </li>
-                <li>Sau khi nhận hàng liên hệ admin nhóm nhận tiền hoàn nhé</li>  
+                <li>Sau khi nhận hàng liên hệ admin nhóm gửi mã đơn nhận tiền hoàn nhé</li>  
               </ol>
             </div>
           </div>
